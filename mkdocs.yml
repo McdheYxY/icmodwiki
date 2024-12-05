@@ -1,6 +1,6 @@
 site_name: ICMOD WIKI
-repo_url: http://127.0.0.1:8000/
-site_url: http://127.0.0.1:8000
+repo_url: https://github.com/McdheYxY/icmod-wiki
+site_url: https://wiki.icmod.tech
 use_directory_urls: false
 theme:
   name: material
