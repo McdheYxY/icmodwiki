@@ -30,6 +30,8 @@ theme:
     - navigation.instant.progress
     #显示导航路径
     - navigation.path
+    #返回顶部
+    - navigation.top
   language: zh
 nav:
   - 教程: 
