@@ -23,8 +23,11 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features: 
+    #提前加载
     - navigation.instant
     - navigation.tabs
+    #进度显示
+    - navigation.instant.progress
   language: zh
 nav:
   - 教程: 
