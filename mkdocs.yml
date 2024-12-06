@@ -5,6 +5,8 @@ use_directory_urls: false
 theme:
   name: material
   logo: assets/logo.png
+  palette:
+    primary: cyan
   features: 
     - navigation.instant
     - navigation.tabs
