@@ -8,12 +8,16 @@ theme:
   palette:
     # Palette toggle for light mode
     - scheme: default
+      primary: cyan
+      accent: amber
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
+      accent: amber
+      primary: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
