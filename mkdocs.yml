@@ -4,8 +4,8 @@ site_url: https://wiki.icmod.tech
 use_directory_urls: false
 theme:
   name: material
-  icon:
-    logo: assets/logo.png
+  favicon: assets/logo.png
+  logo: assets/logo.png
   palette:
     # Palette toggle for light mode
     - scheme: default
