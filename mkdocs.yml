@@ -74,7 +74,4 @@ plugins:
       tags_file: tags.md
   - git-revision-date-localized:
       enable_creation_date: true
-  - git-committers:
-      enabled: true
-      repository: McdheYxY/icmodwiki
-      branch: main
+  - git-authors
