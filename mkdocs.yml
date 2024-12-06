@@ -1,5 +1,7 @@
 site_name: ICMOD WIKI
 repo_url: https://github.com/McdheYxY/icmod-wiki
+repo_name: Visit our Repository
+edit_uri: tree/main/docs/
 site_url: https://wiki.icmod.tech
 use_directory_urls: false
 theme:
@@ -23,15 +25,15 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features: 
-    #提前加载
-    - navigation.instant
+    #导航栏
     - navigation.tabs
     #进度显示
     - navigation.instant.progress
-    #显示导航路径
-    - navigation.path
     #返回顶部
     - navigation.top
+    #搜索建议（有bug）
+    - search.suggest
+    - content.action.edit
   language: zh
 nav:
   - 教程: 
@@ -52,6 +54,7 @@ nav:
     - horizon详细: horizon_more.md
     - 作者: author.md
   - more.md
+  - tags.md
 extra_css:
   - assets/css/style.css
 markdown_extensions:
@@ -65,10 +68,13 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
-  alternate:
-    - name: 中文
-      link: /
-      lang: zh
-    - name: Einglish
-      link: /en/
-      lang: en
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      enabled: true
+      repository: McdheYxY/icmodwiki
+      branch: main
