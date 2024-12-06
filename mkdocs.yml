@@ -28,6 +28,8 @@ theme:
     - navigation.tabs
     #进度显示
     - navigation.instant.progress
+    #显示导航路径
+    - navigation.path
   language: zh
 nav:
   - 教程: 
