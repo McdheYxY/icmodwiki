@@ -57,7 +57,7 @@ nav:
     - 作者: author.md
   - more.md
   - English: 
-    - 冠词.md
+    - English: 冠词.md
   - tags.md
 extra_css:
   - assets/css/style.css
