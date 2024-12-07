@@ -60,6 +60,9 @@ extra_css:
 markdown_extensions:
   - toc:
       permalink: "#"
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences 
 extra:
   consent:
     title: Cookie consent
