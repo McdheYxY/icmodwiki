@@ -31,9 +31,9 @@ theme:
     - navigation.instant.progress
     #返回顶部
     - navigation.top
-    #搜索建议（有bug）
-    - search.suggest
     - content.action.edit
+    #代码复制按钮
+    - content.code.copy
   language: zh
 nav:
   - 教程: 
@@ -59,13 +59,14 @@ extra_css:
   - assets/css/style.css
 markdown_extensions:
   - toc:
-      permalink: "#"
+      permalink: ⚓︎
   - pymdownx.highlight:
       anchor_linenums: true
       auto_title: true
       linenums: true
   - pymdownx.superfences 
-  - pymdownx.details
+  - admonition
+  - footnotes
 extra:
   consent:
     title: Cookie consent
