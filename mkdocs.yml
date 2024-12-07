@@ -62,6 +62,8 @@ markdown_extensions:
       permalink: "#"
   - pymdownx.highlight:
       anchor_linenums: true
+      auto_title: true
+      linenums: true
   - pymdownx.superfences 
 extra:
   consent:
