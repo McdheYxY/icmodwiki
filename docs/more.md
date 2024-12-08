@@ -17,9 +17,9 @@ title: 更多
 The Wiki is hosted and edited on GitHub, and we process edits through the pull-request process.
 
 You are more than welcome to directly suggest edits for our approval.
-
 </Card>
 </CardGrid>
+
 
 ```python
 #[18，20]=18×20÷（18，20）=18×20÷2=180
