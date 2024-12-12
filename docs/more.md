@@ -7,6 +7,8 @@ title: 更多
 | Content Cell | Content Cell  | Content Cell |
 | Content Cell | Content Cell  | Content Cell |
 
+#table#
+
 ```python
 #[18，20]=18×20÷（18，20）=18×20÷2=180
 

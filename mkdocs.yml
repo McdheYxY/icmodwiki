@@ -61,6 +61,7 @@ nav:
   - tags.md
 extra_css:
   - assets/css/style.css
+  - assets/css/style1.css
 markdown_extensions:
   - toc:
       permalink: ⚓︎
@@ -81,6 +82,7 @@ extra:
       make our documentation better.
 plugins:
   - search
+  - demo
   - tags:
       tags_file: tags.md
   - git-revision-date-localized:
