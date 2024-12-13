@@ -1,1 +1,1 @@
-ICMOD-WIKI is a multi person online document encyclopedia.
+[ICMODWIKI](https://wiki.icmod.tech) is a multi person online document encyclopedia.
